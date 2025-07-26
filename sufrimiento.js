@@ -8,8 +8,8 @@ function agregarElemento() {
         elementos.push(input.value)
         
         let resultado = ""
-        for (let i = 0; 1 < elementos.length; i++) {
-            resultado += "<span>" + sufrimiento[i] + "</span>"
+        for (let i = 0; i < elementos.length; i++) {
+            resultado += "<span>" + elementos[i] + "</span>"
 
         }
         contenedor.innerHTML = resultado
