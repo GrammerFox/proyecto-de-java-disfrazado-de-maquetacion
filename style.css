@@ -15,17 +15,24 @@ padding: 10px;
 border-radius: 10px;
 }
 
-
+input{
+    display: flex;
+    flex-grow: 1;
+    width: 80%;
+    border: solid 1px;
+border-radius: 10px;
+height: 20px;
+padding: 3px;
+}
 
 .botones{
     display: flex;
     height: 10%;
-gap: 20px;
+
 }
 
 button{
-    width: 100%;
-    max-width: 200px;
+    width: 93px;
     height: 20px;
     background-color: bisque;
     border: none;
